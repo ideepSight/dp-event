@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "NodeNext",
+    "declaration": true,
+    "declarationDir": ".",
+    "emitDeclarationOnly": false,
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "nodenext",
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["event.ts"],
+  "exclude": ["node_modules", "dist"]
+}

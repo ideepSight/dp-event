@@ -1,0 +1,22 @@
+{
+  "name": "dp-event",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/dp-event.umd.js",
+  "types": "dist/event.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build"
+  },
+  "author": "kavil@qq.com",
+  "license": "MIT",
+  "peerDependencies": {
+    "events": "^3.3.0",
+    "mobx": "^6.13.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "vite": "^6.3.4",
+    "vite-plugin-dts": "^4.5.3"
+  }
+}
