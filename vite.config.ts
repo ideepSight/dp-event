@@ -21,7 +21,7 @@ export default defineConfig({
   plugins: [
     dts({
       entryRoot: ".",
-      outDir: ".",
+      outDir: "dist",
     }),
   ],
 });
